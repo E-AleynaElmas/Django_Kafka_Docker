@@ -5,7 +5,7 @@
  **BANA ÖZEL ANAHTAR KOD:** gAAAAABgU5J0pFswBZynXqYocQz5Dkf6smG0ihxWngiPSfmW2AaDHOlIfjKrV58Q8mwitUhz0TP62IHsTZ-5lBUBxmXf5MYIDkovmVZxY-TubYK77DAdcfbLmYX8vP33mtT_S1NZF1t_4oP-BWI51g05qg4TtJvT1n1DnE9hgvgE8yyzEK-_VfwUukJX65HcsIhJb4un-BTAozrpU4bJaqTllrhlCx2gOg==
  
 ## PROJENİN ÇALIŞTIRILMASI 
-Terminal üzerinden ilk olarak esas proje dizinine gidilir. 
+Terminal üzerinden ilk olarak esas proje dizinine gidilir. Tüm komutlar bu dizinde çalıştırılmalıdır.
 
 `>>cd Django_Kafka_Docker` 
 
