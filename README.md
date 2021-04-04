@@ -11,7 +11,7 @@ Terminal üzerinden;
     
    ya da direk `>>docker-compose up` diyerek docker ve içindeki kafka, veritabanı gibi bağımlılıkları çalıştırabilirsiniz.
    
-### OPSİYONEL: Admin Oluşturmak.
+### 2. ADIM: Admin Oluşturmak.
    Terminal üzerinden;
    
    `>> python manage.py makemigrations`
@@ -29,7 +29,8 @@ diyerek bir admin kullanıcısı oluşturabilirsiniz.
 ![](https://github.com/E-AleynaElmas/Django_Kafka_Docker/blob/main/for_readme/django%20administration%20giri%C5%9F.PNG)
 
 ![](https://github.com/E-AleynaElmas/Django_Kafka_Docker/blob/main/for_readme/admin%20panel.PNG)
-### 2. ADIM: Django ile API Çalıştırmak.
+
+### 3. ADIM: Django ile API Çalıştırmak.
 
 `>> python manage.py runserver`
      
