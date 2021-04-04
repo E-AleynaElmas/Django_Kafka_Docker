@@ -18,14 +18,7 @@ Terminal üzerinden;
    
    `>> python manage.py migrate`
    
-### 2. ADIM: Django ile API Çalıştırmak.
-
-`>> python manage.py runserver`
-     
-  Komutunu terminalde çalıştırarak projenin tamamını çalışır hale getirilmesi sağlanmış olur.
-
-
-Sonrasında
+ Sonrasında
 
 `>> python manage.py createsuperuser`
  
@@ -33,7 +26,15 @@ diyerek bir admin kullanıcısı oluşturabilirsiniz.
 
   - [http://localhost:8000/admin/](http://localhost:8000/admin/) sayfasına giderek **"Django administration”** sayfasına ulaşabilirsiniz. Buradan event ekleyebilirsiniz.
  
-![](https://raw.githubusercontent.com/E-AleynaElmas/Django_Kafka_Docker/main/for_readme/django%20administration%20giri%C5%9F.PNG)
+![](https://github.com/E-AleynaElmas/Django_Kafka_Docker/blob/main/for_readme/django%20administration%20giri%C5%9F.PNG)
+
+![](https://github.com/E-AleynaElmas/Django_Kafka_Docker/blob/main/for_readme/admin%20panel.PNG)
+### 2. ADIM: Django ile API Çalıştırmak.
+
+`>> python manage.py runserver`
+     
+  Komutunu terminalde çalıştırarak projenin tamamını çalışır hale getirilmesi sağlanmış olur.
+
 
 # ENDPOİNT’LERE İSTEK ATMAK
 ## 1. GET Methodu İle Çalışmak
@@ -42,7 +43,7 @@ diyerek bir admin kullanıcısı oluşturabilirsiniz.
    ![](https://github.com/E-AleynaElmas/Django_Kafka_Docker/blob/main/for_readme/get.png)
  ### b. Tek bir datayı görmek
    - [http://localhost:8000/api/event/detail/2/](http://localhost:8000/api/event/detail/2/) isteği ile 2 id’sine sahip tek bir datayı görüntüleyebilirsiniz.
-   - ![](https://github.com/E-AleynaElmas/Django_Kafka_Docker/blob/main/for_readme/get1.png)
+   ![](https://github.com/E-AleynaElmas/Django_Kafka_Docker/blob/main/for_readme/get1.png)
 
 
 ## 2.	POST Methodu İle Çalışmak
@@ -62,5 +63,6 @@ Yukarıdaki örnekte id=2’ ye sahip olan şarkının ismini değiştirebilir v
   ![](https://github.com/E-AleynaElmas/Django_Kafka_Docker/blob/main/for_readme/delete.png)
   Yukarıdaki örnekte 1 id’sine sahip veriyi kırmızı DELETE butonuna basarak,
   
-  ![](https://github.com/E-AleynaElmas/Django_Kafka_Docker/blob/main/for_readme/sure.png)
-  Yukarıdaki gelen ekranı da onaylayarak silebilirsiniz.
+   ![](https://github.com/E-AleynaElmas/Django_Kafka_Docker/blob/main/for_readme/sure.png)
+  
+Yukarıdaki gelen ekranı da onaylayarak silebilirsiniz.
