@@ -1,7 +1,16 @@
 # Django_Kafka_Docker
  
+ Bu proje içerisinde Kafka, MongoDB, Django barındırır. API gerçekliğin dışında müzik verileri (sanatçının ismi, şarkının ismi, izlenme sayısı, beğeni sayısı gibi) ile çalışır. Proje dosyalarının içinde bulunan **Decode_Message** klasörü bu projedeki görevlerime ulaşabilmek için yazdığım decode kodunu içerir.
+ 
+ **BANA ÖZEL ANAHTAR KOD:** gAAAAABgU5J0pFswBZynXqYocQz5Dkf6smG0ihxWngiPSfmW2AaDHOlIfjKrV58Q8mwitUhz0TP62IHsTZ-5lBUBxmXf5MYIDkovmVZxY-TubYK77DAdcfbLmYX8vP33mtT_S1NZF1t_4oP-BWI51g05qg4TtJvT1n1DnE9hgvgE8yyzEK-_VfwUukJX65HcsIhJb4un-BTAozrpU4bJaqTllrhlCx2gOg==
+ 
 ## PROJENİN ÇALIŞTIRILMASI 
-Terminal üzerinden;
+Terminal üzerinden ilk olarak esas proje dizinine gidilir. 
+
+`>>cd Django_Kafka_Docker` 
+
+komutunu kullanarak, **Django_Kafka_Docker> ** dizininde olmalısınız.
+
 ### 1. ADIM: Docker’ın Ayağa Kaldırılması.
    - Docker’ı ayağa kaldırmak için:
  
